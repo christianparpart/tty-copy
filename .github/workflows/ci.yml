@@ -139,7 +139,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: Download binaries from artifacts
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
 
       - name: Generate checksums.txt
         run:
